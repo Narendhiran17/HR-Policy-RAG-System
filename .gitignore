@@ -1,0 +1,26 @@
+# Python Environment & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+.env.local
+.env.*.local
+
+# Local Vector Database Index
+chroma_store/
+
+# Node.js & React Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.eslintcache
+frontend/.env
+frontend/.env.local
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
